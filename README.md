@@ -18,8 +18,7 @@ Trate-o e envie de volta para o usuário um arquivo .xlsx no seguinte formato:
 ![Captura de tela de 2023-01-09 18-02-33](https://user-images.githubusercontent.com/41434675/211407804-9d77750d-8237-4938-bd59-35cd6d940486.png)
 
 
-O primeiro arquivo contém uma lista de veículos com classificação e data, o segundo apresenta o resultado do agrupamento destes veículos em per
-
+O primeiro arquivo contém uma lista de veículos com classificação e data, o segundo apresenta o resultado do agrupamento destes veículos em períodos de 15 minutos.
 
 ### ESPECIFICAÇÕES
 
