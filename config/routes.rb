@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  root "csv_importer#index"
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  post '/import', to: 'csv_importer#import'
+  get '/download', to: 'csv_importer#download'
 end
