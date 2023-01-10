@@ -1,0 +1,14 @@
+<%= form_tag({action: :import}, multipart: true ) do %>
+  <center>
+    <div class='col-md-6 mt-4'>
+      <h1>Importe seu arquivo CSV</h1>
+      <br/>
+      <form>
+        <input type="file" class="filestyle" name="filename" required>
+        <br/>
+        <br/>
+        <input class='btn btn-dark bg-dark'  type='submit' name='submit' value='Importar'>
+      </form>
+    </div>
+  </center>
+<% end %>
